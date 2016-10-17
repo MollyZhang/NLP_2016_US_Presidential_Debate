@@ -26,4 +26,22 @@ Data download from kaggle: https://www.kaggle.com/mrisdal/2016-us-presidential-d
  create alias "tfpython" in place of the last step in the instruction for speedy python login
 5. Ssh into gpu server (gpu-1 to gup-8) and test tensorflow GPU installation following [this link](https://www.tensorflow.org/versions/r0.11/how_tos/using_gpu/index.html) 
 
-  
+ #### Side note on locally install Screen on the GPU server:  
+ `mkdir ~/screen/`  
+ `cd ~/screen`  
+ `wget ftp://ftp.gnu.org/gnu/screen/screen-4.4.0.tar.gz`  
+ `tar xzf screen-*.tar.gz`  
+ `cd screen-*/`  
+ `./configure --prefix=/home/mollyzhang/.local`
+ `make && make install`
+
+
+
+
+
+
+
+### Crudely comparing Speed with and without GPU
+single hidden LSTM layer with 256 memory units
+CPU (laptop): 600s per epoch
+GPU (hyades): 300s per epoch
