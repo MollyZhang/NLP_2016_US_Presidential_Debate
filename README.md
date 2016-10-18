@@ -44,4 +44,9 @@ Data download from kaggle: https://www.kaggle.com/mrisdal/2016-us-presidential-d
 ### Crudely comparing Speed with and without GPU  
 Single hidden LSTM layer with 256 memory units:  
 CPU (laptop): 610s per epoch  
-GPU (hyades): 265s per epoch  
+GPU (hyades): 265s per epoch
+
+total training time:  
+one-layer LSTM: 265s * 20 = 88 min, loss: 1.89   
+two-layer LSTM: 1100 * 50 = 15 hours, loss: 
+
