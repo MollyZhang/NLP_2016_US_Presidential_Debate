@@ -43,5 +43,5 @@ Data download from kaggle: https://www.kaggle.com/mrisdal/2016-us-presidential-d
 
 ### Crudely comparing Speed with and without GPU  
 Single hidden LSTM layer with 256 memory units:  
-CPU (laptop): 600s per epoch  
-GPU (hyades): 300s per epoch  
+CPU (laptop): 610s per epoch  
+GPU (hyades): 265s per epoch  
