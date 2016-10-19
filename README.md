@@ -42,15 +42,30 @@ Data download from kaggle: https://www.kaggle.com/mrisdal/2016-us-presidential-d
 
 
 ### Crudely comparing Speed with and without GPU  
-Single hidden LSTM layer with 256 memory units:  
-CPU (laptop): 610s per epoch  
-GPU (hyades): 260s per epoch
+ Single hidden LSTM layer with 256 memory units:  
+ CPU (laptop): 610s per epoch  
+ GPU (hyades): 260s per epoch
 
-Two hiddlen LSTM layers with 256 memory unites each:
-CPU (laptop): 1700s per epoch  
-GPU (hyades): 1100s per epoch
+ Two hiddlen LSTM layers with 256 memory unites each:
+ CPU (laptop): 1700s per epoch  
+ GPU (hyades): 1100s per epoch
 
-total training time (GPU):  
-one-layer LSTM: 265s * 20 = 88 min, loss: 1.89   
-two-layer LSTM: 1100 * 50 = 15 hours, loss: 1.09 
+ total training time (GPU):  
+ one-layer LSTM: 265s * 20 = 88 min, loss: 1.89   
+ two-layer LSTM: 1100 * 50 = 15 hours, loss: 1.09 
+
+### Some example result from best model so far (1.09 cross entropy loss):
+##### Random seed: " illary was going to bring back jobs to upstate new york and she failed. i've heard them where hillar "  
+##### Generated Text:  
+y clinton has been a disaster. . and she said she salks about some bompanies are jostrtation. and i will tell you that i'm going to have a stepoenng to me and otr country. i aglee it the gissing to the war. and i will tell you that i'm going to have a stepoenng to me and of the freatest problem the stopigms and so doe to brpendry with the internet, and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a st
+
+##### Molly's comment:  
+It's exciting to see that the network learned to complete names like "hillar" with a letter "y" as well as her last name "clinton". Also the sentence structure is preserved even though many words don't exist. I am surprised to find that many words and phrases are preserved, such as "country", "dissaster", "I will tell you", "I'm going to have a", etc. However, the speech gets stuck in a loop for the latter part of the paragram. 
+
+
+
+
+
+
+
 
