@@ -1,8 +1,7 @@
 # NLP_2016_US_Presidential_Debate
-Natural Language Processing and Deep Learning of 2016 Presidential Debate Transcripts
-In particular, automatically generate Trump or Hillary debate speech.  
-Data download from [kaggle](https://www.kaggle.com/mrisdal/2016-us-presidential-debates), the data is essential text transcript of the first two presendential debates.
-
+Natural Language Processing and Deep Learning of 2016 Presidential Debate Transcripts. In particular, automatically generate Trump or Hillary debate speech.  
+Data download from [kaggle](https://www.kaggle.com/mrisdal/2016-us-presidential-debates), the data is essential text transcript of the first two presendential debates.  
+Most of the code is adapted from [this tutorial](http://machinelearningmastery.com/text-generation-lstm-recurrent-neural-networks-python-keras/).   
 
 ## Some example result from best model so far (1.09 cross entropy loss):
 
