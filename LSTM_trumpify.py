@@ -12,17 +12,16 @@ from keras.utils import np_utils
 
 
 
-
 def main():
     X, y, dataX, chars, n_vocab = load_data("data/debate.csv")
     model = define_model(X, y)
-    train_model(model, X, y)
-    #generate_text(model, dataX, chars, n_vocab)
+    #train_model(model, X, y)
+    generate_text(model, dataX, chars, n_vocab)
 
 
 def generate_text(model, dataX, chars, n_vocab):
     # load the network weights
-    filename = "weights-improvement-19-1.8910.hdf5"
+    filename = "weights-improvement-49-1.0937-bigger.hdf5"
     model.load_weights(filename)
     model.compile(loss='categorical_crossentropy', optimizer='adam')
     int_to_char = dict((i, c) for i, c in enumerate(chars))
@@ -44,7 +43,6 @@ def generate_text(model, dataX, chars, n_vocab):
         pattern.append(index)
         pattern = pattern[1:len(pattern)]
     print "\nDone."
-
 
 
 def define_model(X, y):
