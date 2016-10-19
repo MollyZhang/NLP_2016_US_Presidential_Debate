@@ -5,14 +5,20 @@ Data download from [kaggle](https://www.kaggle.com/mrisdal/2016-us-presidential-
 
 
 ## Some example result from best model so far (1.09 cross entropy loss):
-#### Random seed: " illary was going to bring back jobs to upstate new york and she failed. i've heard them where hillar "  
-#### Generated Text:  
+
+#### Random seed 1:
+" illary was going to bring back jobs to upstate new york and she failed. i've heard them where hillar "  
+#### Generated Text 1:  
 y clinton has been a disaster. . and she said she salks about some bompanies are jostrtation. and i will tell you that i'm going to have a stepoenng to me and otr country. i aglee it the gissing to the war. and i will tell you that i'm going to have a stepoenng to me and of the freatest problem the stopigms and so doe to brpendry with the internet, and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a st
+
+#### Randome Seed 2: 
+" ticians have done.. i'll tell you very -- well, just very simple to say. sidney blumenthal works for "  
+#### Generated Text 2:
+the country that she salks about to many of the people that are going to be a bompa tp be a president that was to be a desaster. she doesn't have the stamina. i mean, it was a disaster. and i don't think you thie in the world, i agree with you the interest rates and all of the people that are going to be a bompa tp be a president that was to be a desaster. she doesn't have the stamina. i mean, it was a disaster. and i don't think you thie in the world, i agree with you the interest rates and all of the people that are going to be a bompa tp be a president that was to be a desaster. she doesn't have the stamina. i mean, it was a disaster. and i don't think you thie in the world, i agree with you the interest rates and all of the people that are going to be a bompa tp be a president that was to be a desaster. she doesn't have the stamina. i mean, it was a disaster. and i don't think you thie in the world, i agree with you the interest rates and all of the people that are going to be a b
+
 
 #### Molly's comment:  
 It's exciting to see that the network learned to complete names like "hillar" with a letter "y" as well as her last name "clinton". Also the sentence structure is preserved even though many words don't exist. I am surprised to find that many words and phrases are preserved, such as "country", "dissaster", "I will tell you", "I'm going to have a", etc. However, the speech gets stuck in a loop for the latter part of the paragragh. 
-
-
 
 
 ### Crudely comparing Speed with and without GPU  
