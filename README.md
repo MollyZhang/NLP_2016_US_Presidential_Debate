@@ -1,7 +1,7 @@
 # NLP_2016_US_Presidential_Debate
 Natural Language Processing and Deep Learning of 2016 Presidential Debate Transcripts
-In particular, automatically generate Trump or Hillary debate speech.
-Data download from [kaggle](https://www.kaggle.com/mrisdal/2016-us-presidential-debates), the data is essential text transcript of the first two presendential debate.
+In particular, automatically generate Trump or Hillary debate speech.  
+Data download from [kaggle](https://www.kaggle.com/mrisdal/2016-us-presidential-debates), the data is essential text transcript of the first two presendential debates.
 
 
 ## Some example result from best model so far (1.09 cross entropy loss):
@@ -10,7 +10,7 @@ Data download from [kaggle](https://www.kaggle.com/mrisdal/2016-us-presidential-
 y clinton has been a disaster. . and she said she salks about some bompanies are jostrtation. and i will tell you that i'm going to have a stepoenng to me and otr country. i aglee it the gissing to the war. and i will tell you that i'm going to have a stepoenng to me and of the freatest problem the stopigms and so doe to brpendry with the internet, and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a stepoena, they're going to be a bompany. and i will tell you that i'm going to have a st
 
 #### Molly's comment:  
-It's exciting to see that the network learned to complete names like "hillar" with a letter "y" as well as her last name "clinton". Also the sentence structure is preserved even though many words don't exist. I am surprised to find that many words and phrases are preserved, such as "country", "dissaster", "I will tell you", "I'm going to have a", etc. However, the speech gets stuck in a loop for the latter part of the paragram. 
+It's exciting to see that the network learned to complete names like "hillar" with a letter "y" as well as her last name "clinton". Also the sentence structure is preserved even though many words don't exist. I am surprised to find that many words and phrases are preserved, such as "country", "dissaster", "I will tell you", "I'm going to have a", etc. However, the speech gets stuck in a loop for the latter part of the paragragh. 
 
 
 
