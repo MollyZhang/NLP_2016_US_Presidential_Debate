@@ -48,5 +48,5 @@ GPU (hyades): 265s per epoch
 
 total training time:  
 one-layer LSTM: 265s * 20 = 88 min, loss: 1.89   
-two-layer LSTM: 1100 * 50 = 15 hours, loss: 
+two-layer LSTM: 1100 * 50 = 15 hours, loss: 1.09 
 
