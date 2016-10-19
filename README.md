@@ -17,7 +17,7 @@ the country that she salks about to many of the people that are going to be a bo
 
 
 #### Molly's comment:  
-It's exciting to see that the network learned to complete names like "hillar" with a letter "y" as well as her last name "clinton". Also the sentence structure is preserved even though many words don't exist. I am surprised to find that many words and phrases are preserved, such as "country", "dissaster", "I will tell you", "I'm going to have a", etc. However, the speech gets stuck in a loop for the latter part of the paragragh. 
+It's exciting to see that the network learned to complete names like "hillar" with a letter "y" as well as her last name "clinton". In fact, the model learned to produce some actual English words and sentences with semi-correct grammar just from a few hours worth of debate text. The sentence structure is preserved even though many words don't exist. I am surprised to find that many words and phrases are preserved, such as "country", "dissaster", "I will tell you", "I'm going to have a", etc. However, the speech gets stuck in a loop for the latter part of the paragragh. 
 
 
 ### Crudely comparing Speed with and without GPU  
