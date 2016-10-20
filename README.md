@@ -23,15 +23,15 @@ It's exciting to see that the network learned to complete names like "hillar" wi
 ### Crudely comparing Speed with and without GPU  
  Single hidden LSTM layer with 256 memory units:  
  CPU (laptop): 610s per epoch  
- GPU (hyades): 260s per epoch
+ GPU (hyades): 260s per epoch  
 
- Two hiddlen LSTM layers with 256 memory unites each:
+ Two hiddlen LSTM layers with 256 memory unites each:  
  CPU (laptop): 1700s per epoch  
- GPU (hyades): 1100s per epoch
+ GPU (hyades): 1100s per epoch  
 
  total training time (GPU):  
- one-layer LSTM: 265s * 20 = 88 min, loss: 1.89   
- two-layer LSTM: 1100 * 50 = 15 hours, loss: 1.09 
+ one-layer LSTM: 265s * 20 = 88 min, loss: 1.89  
+ two-layer LSTM: 1100 * 50 = 15 hours, loss: 1.09  
 
 
 ### Note on debugging keras and tensorflow:
